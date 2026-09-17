@@ -1,6 +1,6 @@
 # Valdez → 費爾班克斯 沿途景點攻略
 
-阿拉斯加 Richardson Highway 自駕路線指南，從 Valdez 到 Fairbanks，全程 368 英里、約 7.5 小時車程，沿途 6 個推薦停靠景點。
+阿拉斯加 Richardson Highway 自駕路線指南，從 Valdez 到 Fairbanks，全程 368 英里、約 7.5 小時車程，沿途 7 個推薦停靠景點。
 
 **線上瀏覽：** https://s208h3556ko-cmd.github.io/valdez-fairbanks-guide/
 
@@ -13,7 +13,8 @@
 | 3 | 107 | Wrangell-St. Elias 國家公園遊客中心 |
 | 4 | 118 | Copper Valley Air Service（Glennallen）|
 | 5 | 195 | Summit Lake |
-| 6 | 305 | Birch Lake State Recreation Site |
+| 6 | 209 | Rainbow Ridge / Rainbow Mountain |
+| 7 | 305 | Birch Lake State Recreation Site |
 
 ## 說明
 
