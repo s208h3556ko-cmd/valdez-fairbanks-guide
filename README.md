@@ -9,7 +9,7 @@
 | # | Mile | 景點 |
 |---|------|------|
 | 1 | 13  | Keystone Canyon / Bridal Veil Falls |
-| 2 | 87  | Willow Lake / Wrangell Mountains Viewpoint |
+| 2 | 87  | Willow Mountain View Station |
 | 3 | 107 | Wrangell-St. Elias 國家公園遊客中心 |
 | 4 | 118 | Copper Valley Air Service（Glennallen）|
 | 5 | 195 | Summit Lake |
