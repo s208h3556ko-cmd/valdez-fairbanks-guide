@@ -13,7 +13,7 @@
 | 3 | 107 | Wrangell-St. Elias 國家公園遊客中心 |
 | 4 | 118 | Copper Valley Air Service（Glennallen）|
 | 5 | 195 | Summit Lake |
-| 6 | 200 | Fielding Lake State Recreation Site |
+| 6 | 200.4 | Richardson Monument |
 | 7 | 305 | Birch Lake State Recreation Site |
 
 ## 說明
