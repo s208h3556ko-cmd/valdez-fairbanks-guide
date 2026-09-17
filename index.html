@@ -46,19 +46,6 @@
   .spot-info { display: flex; flex-wrap: wrap; gap: 10px; font-size: 0.85rem; color: var(--muted); padding-top: 12px; border-top: 1px solid var(--border); }
   .drive-tag { margin-top: 16px; background: var(--accent-light); border-left: 3px solid var(--drive); padding: 10px 16px; border-radius: 0 8px 8px 0; font-size: 0.88rem; font-weight: 600; color: var(--drive); }
   .copper-note { background: #f0f7ee; border-left: 3px solid #4a7c59; padding: 12px 16px; border-radius: 0 8px 8px 0; font-size: 0.88rem; color: #2d5a3d; margin-top: 12px; }
-  .route-map { background: var(--card); border-radius: 12px; border: 1px solid var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.07); padding: 22px 24px 20px; margin-bottom: 20px; }
-  .route-map h2 { font-size: 1.15rem; font-weight: 700; color: var(--ink); margin-bottom: 6px; }
-  .route-map .lede { font-size: 0.88rem; color: var(--muted); }
-  .map-btn { display: flex; align-items: center; justify-content: center; gap: 6px; min-height: 48px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 500; font-size: 0.92rem; padding: 12px 16px; border-radius: 8px; margin: 14px 0 18px; text-align: center; }
-  .map-btn:hover { background: #15597f; }
-  .route-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-  .route-table th { text-align: left; font-size: 0.76rem; font-weight: 500; color: var(--muted); letter-spacing: 0.04em; border-bottom: 1px solid var(--border); padding: 0 4px 6px; }
-  .route-table td { padding: 9px 4px; border-bottom: 1px solid #eee; vertical-align: top; }
-  .route-table tr:last-child td { border-bottom: none; }
-  .route-table td:nth-child(2), .route-table td:nth-child(3) { text-align: right; white-space: nowrap; color: var(--muted); font-size: 0.8rem; }
-  .route-table tr.endpoint td { font-weight: 700; color: var(--accent); }
-  .route-summary { margin-top: 16px; background: var(--accent-light); border-left: 3px solid var(--drive); padding: 12px 16px; border-radius: 0 8px 8px 0; font-size: 0.88rem; color: var(--drive); }
-  .route-summary div + div { margin-top: 4px; }
   .arrival { text-align: center; padding: 32px; font-size: 1.1rem; font-weight: 700; color: var(--accent); background: var(--accent-light); border-radius: 12px; margin-top: 8px; }
   @media (max-width: 600px) {
     header h1 { font-size: 1.5rem; }
@@ -76,33 +63,6 @@
 <div class="route-bar">Valdez 出發 → 7 個景點 → 費爾班克斯抵達 🏁</div>
 
 <main>
-
-  <div class="route-map">
-    <h2>🗺️ 完整路線地圖</h2>
-    <p class="lede">點擊下方按鈕，在 Google Maps 開啟含所有景點的完整路線。</p>
-    <a class="map-btn" href="https://www.google.com/maps/dir/Solomon+Gulch+Hatchery,+Valdez,+AK/Keystone+Canyon,+Valdez,+AK/Willow+Mountain+View+Station,+Copper+Center,+AK/Wrangell-St+Elias+National+Park+Visitor+Center,+Copper+Center,+AK/Copper+Valley+Air+Service,+Gulkana,+AK/Summit+Lake,+AK+99737/Rainbow+Ridge,+AK/Birch+Lake+State+Recreation+Site,+AK/Fairbanks,+AK" target="_blank">🧭 開啟 Google Maps 完整路線</a>
-    <table class="route-table">
-      <thead>
-        <tr><th>景點</th><th>Mile</th><th>與上一站</th></tr>
-      </thead>
-      <tbody>
-        <tr class="endpoint"><td>🚦 Solomon Gulch Hatchery（出發）</td><td>Mile 0</td><td>—</td></tr>
-        <tr><td>1. Keystone Canyon</td><td>Mile 13</td><td>15 分鐘</td></tr>
-        <tr><td>2. Willow Mountain View Station</td><td>Mile 87</td><td>1 小時 10 分鐘</td></tr>
-        <tr><td>3. Wrangell-St. Elias 遊客中心</td><td>Mile 107</td><td>30 分鐘</td></tr>
-        <tr><td>4. Copper Valley Air Service</td><td>Mile 118</td><td>15 分鐘</td></tr>
-        <tr><td>5. Summit Lake</td><td>Mile 195</td><td>1 小時 5 分鐘</td></tr>
-        <tr><td>6. Rainbow Ridge</td><td>Mile 209</td><td>20 分鐘</td></tr>
-        <tr><td>7. Birch Lake</td><td>Mile 305</td><td>1 小時 35 分鐘</td></tr>
-        <tr class="endpoint"><td>🏁 費爾班克斯（終點）</td><td>Mile 368</td><td>1 小時</td></tr>
-      </tbody>
-    </table>
-    <div class="route-summary">
-      <div>總車程：約 7.5 小時（不含停靠時間）</div>
-      <div>含所有停靠點：約 10–11 小時</div>
-      <div>建議出發時間：早上 7:00</div>
-    </div>
-  </div>
 
   <!-- 1 Keystone Canyon -->
   <div class="spot">
